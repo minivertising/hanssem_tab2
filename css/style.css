@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: '돋움', Dotum, 'Apple SD Gothic Neo', Helvetica, sans-serif;
+	font-family: "Malgun Gothic";
+}
+input{
+	font-family: '돋움', Dotum, 'Apple SD Gothic Neo', Helvetica, sans-serif;
+	font-family: "Malgun Gothic";
+	font-weight:bold;
+}
+body {
+	line-height: 1
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+nav ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: none
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
+}
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none
+}
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold
+}
+del {
+	text-decoration: line-through
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0
+}
+input, select {
+	vertical-align: middle
+}
+li {
+	list-style: none;
+}
+/*common*/
+* {
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+
+
+
+body .wrap{
+	width:1280px;
+	height:800px;
+	position:relative;
+}
+
+
+/*main*/
+.main_btn{
+	width:640px;
+	height:400px;
+	float:left;
+}
+.wrap .btn_view_full{
+	position:absolute;
+	right:46px;
+	bottom:46px;
+	z-index:1000;
+}
+
+.sub_plan_sub .left{
+	width:1100px;
+	height:800px;
+	float:left;
+	position:relative;
+}
+.sub_plan_sub .left .navi_arrw{
+	position:absolute;
+	top:375px;
+	width:100%;
+}
+.sub_plan_sub .left .navi_arrw div{
+	width:50%;
+	float:left;
+}
+.sub_plan_sub .left .navi_arrw div.arrw_left{
+	width:47%;
+	padding-left:3%;
+}
+.sub_plan_sub .left .navi_arrw div.arrw_right{
+	width:47%;
+	padding-right:3%;
+	text-align:right;
+}
+.sub_plan_sub .left .navi_dot{
+	text-align:center;
+	width:100%;
+	position:absolute;
+	bottom:20px;
+}
+
+
+
+
+.sub_plan_sub .right{
+	width:180px;
+	height:800px;
+	background:#000;
+	float:left;
+}
+.sub_plan_sub .right .inner_right{
+	padding-left:30px;
+	padding-top:60px;
+}
+.sub_plan_sub .right .inner_right .title{
+	padding-bottom:140px;
+}
+
+
+
+.sub_index .block_btn{
+	width:218px;
+	padding-top:67px;
+	padding-left:1004px;
+}
+
+
+.sub_plan .block_btn{
+	padding-top:509px;
+	padding-left:206px;
+}
+.sub_plan .block_btn div{
+	float:left;
+}
+
+
+
+
+
+/*bach7*/
+.sub_index.bach7{
+	background:url(../images/bach7/bach7_main.jpg) no-repeat;
+}
+.sub_plan.bach7{
+	background:url(../images/bach7/bach7_plan.jpg) no-repeat;
+}
